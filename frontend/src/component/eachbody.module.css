@@ -1,0 +1,23 @@
+.bodyContainer {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 80vw;
+  margin: auto;
+}
+.eachBody {
+  width: 100%;
+  min-height: 400px;
+}
+.btnReadMore {
+  background: white;
+  letter-spacing: 3px;
+  padding: 3px 15px 8px 15px;
+  font-size: 1.2em;
+  font-weight: 700;
+  border: 0.16em solid black;
+  border-radius: 35px;
+}

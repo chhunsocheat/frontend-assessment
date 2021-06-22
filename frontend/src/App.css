@@ -1,0 +1,14 @@
+.exercise2{
+  width: 70vw;
+  margin: auto;
+}
+.accordionTitle:hover{
+  text-decoration: underline;
+color: blue;
+transition: 0.2s ease all;
+}
+@media  (max-width:920px) {
+  .exercise2{
+    width: 100vw;
+  }
+}
