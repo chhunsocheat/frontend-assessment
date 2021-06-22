@@ -2,7 +2,7 @@ Introduction
 ---
 This exercise was implemented using React.js and React Bootstrap, and React-router-dom.
 
-In the project directory, you can run:
+In the project directory, frontend folder, you can run:
 
 ### `npm start`
 
