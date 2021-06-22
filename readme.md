@@ -16,7 +16,8 @@ Exercise 2
 ---
 For exercise 2 you need to go to "/exercise2" endpoint to see the tabs and accordians. The tabs will show if the width of the screen is 1224px, and the accordians will show when the screen size if less than 1224px.
 
-###### Bonus points
+Bonus points
+---
 
 * Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
 
