@@ -4,7 +4,11 @@ This exercise was implemented using React.js and React Bootstrap, and React-rout
 
 In the project directory, frontend folder, you can run:
 
-### `npm start`
+#### `npm install`
+
+then
+
+#### `npm start`
 
 Exercise 1
 ---
