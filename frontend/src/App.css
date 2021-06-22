@@ -12,3 +12,8 @@ transition: 0.2s ease all;
     width: 100vw;
   }
 }
+  
+.App {
+  text-align: center;
+}
+

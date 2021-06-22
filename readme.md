@@ -1,40 +1,28 @@
 Introduction
 ---
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, but Vue.js is preferred and jQuery is not recommended. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+This exercise was implemented using React.js and React Bootstrap, and React-router-dom.
+
+In the project directory, you can run:
+
+### `npm start`
 
 Exercise 1
 ---
-Build a responsive page based on the designs.
-
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
-
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
-
-##### Assets
-* Desktop banner - http://via.placeholder.com/1920x650
-* Mobile banner - http://via.placeholder.com/600x600
-* Content images - http://via.placeholder.com/400x300
-
+To go to exercise one all you need to do is npm run start and the default endpoint will let you see my implementation of exercise 1.
+The layout is reponsive using a mixture of flexbox and grid
 Exercise 2
 ---
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
-
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
+For exercise 2 you need to go to "/exercise2" endpoint to see the tabs and accordians. The tabs will show if the width of the screen is 1224px, and the accordians will show when the screen size if less than 1224px.
 
 ###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
+
 * Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+
+This turns to `banana` because when nothing is plus with `a`, it will resolve to NaN because of a concept in javascript called type coersion. 
+Now, if you add NaN to "ba" you will get "baNaN" again because of type coersion. If we add the letter `a` to the `baNaN`, it will be `baNaNa`. Finally, `toLowerCase()` will convert this to `banana`. 
+
 
 Submission
 ---
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+
+This is the link to the repo: https://github.com/chhunsocheat/frontend-assessment
